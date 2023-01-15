@@ -46,7 +46,7 @@ The easiest way to create filters using spring, works to all your tables, all yo
 	<version>1.0.0</version>
 </dependency>
  ```
-- [x] See more how to use in
+- [x] See an example how to use in
 [ /spring-jpa-zuin-filter-library-example](https://github.com/enayzuin/zuin-spring-jpa-filter-usage-example)
 
 
