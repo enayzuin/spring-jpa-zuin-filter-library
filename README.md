@@ -10,6 +10,19 @@ The easiest way to create filters using spring, works to all your tables, all yo
 
 - [x] Filter example.
    
+ - pom.xml dependency
+ ```xml
+ 		<dependency>
+			<groupId>com.github.enayzuin.spring.jpa.filter</groupId>
+			<artifactId>zuin-spring-jpa-filter</artifactId>
+			<version>1.0.0</version>
+		</dependency>
+ ```
+ 
+ ![How it works - Json query](zuin-filter.png "Json query drawning")
+ 
+ - [x] Configure in your project.
+   
  - Searching in table "HOSPITAL" with conditions.  
  ```json
  {
@@ -37,8 +50,6 @@ The easiest way to create filters using spring, works to all your tables, all yo
 	   ]
 }
  ```
-
-![How it works - Json query](zuin-filter.png "Json query drawning")
 
 ### Author
 
