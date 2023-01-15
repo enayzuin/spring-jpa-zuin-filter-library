@@ -40,11 +40,11 @@ The easiest way to create filters using spring, works to all your tables, all yo
 ## Configure
 - [x] pom.xml dependency.
  ```xml
- 		<dependency>
-			<groupId>com.github.enayzuin.spring.jpa.filter</groupId>
-			<artifactId>zuin-spring-jpa-filter</artifactId>
-			<version>1.0.0</version>
-		</dependency>
+<dependency>
+	<groupId>com.github.enayzuin.spring.jpa.filter</groupId>
+	<artifactId>zuin-spring-jpa-filter</artifactId>
+	<version>1.0.0</version>
+</dependency>
  ```
 
 ### Author
