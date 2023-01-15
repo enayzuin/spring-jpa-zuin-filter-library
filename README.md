@@ -12,7 +12,30 @@ The easiest way to create filters using spring, works to all your tables, all yo
    
  - Searching in table "HOSPITAL" with conditions.  
  ```json
- {}
+ 	{
+	   "table":"HOSPITAIS",
+	   "expressions":[
+		  {
+			 "conditions":[
+				{
+				   "field":"ID",
+				   "values":[
+					  "1"
+				   ],
+				   "comparator":"EQUAL"
+				},
+				{
+				   "field":"NOME_HOSPITAL",
+				   "values":[
+					  "UNIDADE SANTO AMARO"
+				   ],
+				   "comparator":"EQUAL"
+				}
+			 ],
+			 "operation":"AND"
+		  }
+	   ]
+	}
  ```
 
 ![How it works - Json query](zuin-filter.png "Json query drawning")
