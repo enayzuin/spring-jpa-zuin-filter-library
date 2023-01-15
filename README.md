@@ -11,7 +11,9 @@ The easiest way to create filters using spring, works to all your tables, all yo
 - [x] Filter example.
    <details><summary>Searching in table "HOSPITAL" with conditions </summary>
         <p>
-  ```json
+
+<br>
+		  ```json
 	{
 	   "table":"HOSPITAIS",
 	   "expressions":[
@@ -37,7 +39,6 @@ The easiest way to create filters using spring, works to all your tables, all yo
 	   ]
 	}
    ```
-<br>
 
 ![How it works - Json query](zuin-filter.png "Json query drawning")
 
