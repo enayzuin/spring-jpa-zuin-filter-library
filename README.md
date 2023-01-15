@@ -40,7 +40,7 @@ The easiest way to create filters using spring, works to all your tables, all yo
 <br>
 
 ![How it works - Json query](/zuin-filter.drawio (4).png "Json query drawning")
-
+![alt text](zuin-filter.drawio (4).png "Title")
 ### Author
 
 ---
