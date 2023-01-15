@@ -24,12 +24,14 @@
 			<email>enayzuin@gmail.com</email>
 		</developer>
 	</developers>
+
 	<scm>
-		<url>git@github.com:enayzuin/spring-jpa-zuin-filter-library.git</url>
-		<connection>scm:git:git@github.com:enayzuin/spring-jpa-zuin-filter-library.git</connection>
-		<developerConnection>scm:git:git@github.com:enayzuin/spring-jpa-zuin-filter-library.git</developerConnection>
+		<url>https://github.com/enayzuin/spring-jpa-zuin-filter-library</url>
+		<connection>scm:git:https://github.com/enayzuin/spring-jpa-zuin-filter-library.git</connection>
+		<developerConnection>scm:git:https://github.com/enayzuin/spring-jpa-zuin-filter-library.git</developerConnection>
 		<tag>HEAD</tag>
 	</scm>
+
 
 	<issueManagement>
 		<system>GitHub Issues</system>
