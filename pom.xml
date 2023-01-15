@@ -10,7 +10,7 @@
 
 	<groupId>com.github.enayzuin.spring.jpa.filter</groupId>
 	<artifactId>zuin-spring-jpa-filter</artifactId>
-	<version>1.0.1-SNAPSHOT</version>
+	<version>1.0.0-SNAPSHOT</version>
 	<packaging>jar</packaging>
 	<name>Zuin Spring Jpa Filter</name>
 	<description>Library to simplify jpa filters</description>
