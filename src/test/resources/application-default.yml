@@ -1,0 +1,75 @@
+# Porta do servidor
+server:
+  port: 8080
+  host: http://localhost
+  #servlet:
+    #context-path: /nuf-retained-notes 
+
+# Configurações da biblioteca core do Arsenal
+arsenal:
+  library:
+    core:
+      api:
+        enable-docs: true # Desativar documentação Swagger/OpenAPI
+        docs-base-package: br.com.santander.nuf.controller # Pacote onde se encontram as classes de controller
+        #archetypekey: 97A7AC846363AFCA8EEECA758F0DC44D4DB823861835CA4CA41128CDE5B7E146
+      log:
+        stack-depth: 30 #Profundide máxima das stack traces que serão escritas nos logs
+        #stack-size: 2048 Quantidade máxima de caracteres das stack traces que serão escritas nos logs
+      auth:
+        enabled: false # Ativar segurança (autenticação e autorização)
+        #public-key: Chave pública utilizada para validar os tokens JWT
+        #jwk-set-uri: Endereço de um authorization server (ex: RH SSO), a chave pública é obtida automaticamente
+        #algorithm: Algoritmo de criptografia utilizado para assinar os tokens
+        #actuator-role: Role necessária para acesso aos endpoints do actuator (por padrão permite sempre o acesso)
+        #custom-header: Header onde o token JWT será recebido (padrão: Authorization)
+        #whitelist: Lista de endpoints que não requerem segurança
+        #  - /api/v1/endpoint1/
+        #  - /api/v1/endpoint2/**
+        #role-authorization: Lista de endpoints e roles necessárias para acessá-los
+        #  "[/api/v1/endpoint3/**]"
+        #    - ROLE_ONE
+        #    - ROLE_TWO
+
+# Configurações de banco de dados
+spring.jpa:
+  database: H2
+  show-sql: true
+  generate-ddl: true
+  hibernate:
+    ddl-auto: create
+  properties:
+    hibernate:
+      dialect: org.hibernate.dialect.H2Dialect
+
+spring.datasource:
+  continue-on-error: false
+  # A conexão com o banco pode ser feita automaticamente se as propriedades de usuário/senha
+  # estiverem configuradas diretamente nas variáveis de ambiente declaradas abaixo.
+  #
+  # No entanto, recomendamos que você guarde essas credenciais em Secrets do OpenShift.
+  #
+  # Ao usar Secrets, as variáveis de ambiente passam a contar o caminho para os arquivos de secret.
+  #
+  # O Spring Boot não "sabe" abrir os arquivos de Secret e ler o conteúdo dos mesmos, por esse motivo
+  # usamos um DataSource customizado (veja a classe DatabaseConfig) que faz esse processo.
+  #
+  # Veja as configurações de credenciais mais acima na seção apparsenalname.backing-services.database.
+  platform: h2
+
+# Logging
+# Sobrescrevendo grupos e níveis de log
+logging:
+  group:
+    web: org.springframework.core.codec, org.springframework.http, org.springframework.web
+    spring: org.springframework.core.env
+    servlet: org.springframework.boot.web, org.apache.catalina, org.apache.coyote, org.apache.tomcat
+    data: org.springframework.jdbc.core, org.hibernate.sql, org.springframework.orm.jpa, com.zaxxer.hikari, org.hibernate, org.jooq.tools.LoggerListener
+    app: br.com.santander.nuf
+  level:
+    root: WARN
+    spring: INFO
+    app: INFO
+    servlet: WARN
+    web: WARN
+    data: WARN

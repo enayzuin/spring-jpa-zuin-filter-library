@@ -1,0 +1,24 @@
+{
+   "table":"HOSPITAIS",
+   "expressions":[
+      {
+         "conditions":[
+            {
+               "field":"ID",
+               "values":[
+                  "1"
+               ],
+               "comparator":"EQUAL"
+            },
+            {
+               "field":"NOME_HOSPITAL",
+               "values":[
+                  "UNIDADE SANTO AMARO"
+               ],
+               "comparator":"EQUAL"
+            }
+         ],
+         "operation":"AND"
+      }
+   ]
+}

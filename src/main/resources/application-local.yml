@@ -1,0 +1,61 @@
+
+# Propriedades da aplicação Spring Boot
+spring:
+  jackson:
+    date-format: yyyy/MM/dd
+    serialization:
+      write-dates-as-timestamps: false
+  main:
+    banner-mode: 'console'
+  datasource:
+    hikari:
+      connection-timeout: 1500
+      connectionTestQuery: SELECT 1
+      idle-timeout: 10000
+      max-lifetime: 60000
+      maximum-pool-size: 10
+      minimum-idle: 2
+
+      
+# Configurações de banco de dados
+spring.jpa:
+  database: H2
+  generate-ddl: false
+  show-sql: false
+  hibernate:
+    ddl-auto: none
+  properties:
+    hibernate:
+      dialect: org.hibernate.dialect.SQLServer2012Dialect
+      enable_lazy_load_no_trans: true
+      
+# Porta do servidor
+server:
+  port: 8080
+  servlet:
+    context-path: /spring-jpa-filter
+# Configurações da biblioteca core do Arsenal
+
+
+# Sobrescrevendo grupos e níveis de log
+logging:
+  group:
+    web: org.springframework.core.codec, org.springframework.http, org.springframework.web
+    spring: org.springframework.core.env
+    servlet: org.springframework.boot.web, org.apache.catalina, org.apache.coyote, org.apache.tomcat
+    data: org.springframework.jdbc.core, org.hibernate.sql, org.springframework.orm.jpa, com.zaxxer.hikari, org.hibernate, org.jooq.tools.LoggerListener
+    app: br.com.santander.nuf
+  level:
+    root: WARN
+    spring: INFO
+    app: INFO
+    servlet: WARN
+    web: WARN
+    data: INFO
+
+db:
+  user: victor
+  password: Stdr@2022
+  url: jdbc:sqlserver://localhost;databaseName=save-sus
+
+    
