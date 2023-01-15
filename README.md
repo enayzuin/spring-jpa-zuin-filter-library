@@ -35,7 +35,7 @@ The easiest way to create filters using spring, works to all your tables, all yo
 			 "operation":"AND"
 		  }
 	   ]
-	}
+}
  ```
 
 ![How it works - Json query](zuin-filter.png "Json query drawning")
