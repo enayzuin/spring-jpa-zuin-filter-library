@@ -9,7 +9,7 @@ The easiest way to create filters using spring, works to all your tables, all yo
 
 
 - [x] Filter example.
-   <details>Searching in table "HOSPITAL" with conditions.</details>
+   Searching in table "HOSPITAL" with conditions.
    
  ```json
  {}
