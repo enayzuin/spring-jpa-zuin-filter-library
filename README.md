@@ -49,7 +49,7 @@ The easiest way to create filters using spring, works to all your tables, all yo
 - [x] See more how to use in
 
 ---
-[redirect:[ /spring-jpa-zuin-filter-library-example](https://github.com/enayzuin/zuin-spring-jpa-filter-usage-example)](https://github.com/enayzuin/zuin-spring-jpa-filter-usage-example)
+[redirect:[ /spring-jpa-zuin-filter-library-example](https://github.com/enayzuin/zuin-spring-jpa-filter-usage-example)]
 
 ---
 
