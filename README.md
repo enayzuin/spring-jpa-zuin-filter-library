@@ -4,7 +4,7 @@ In this repository you will find the source code responsible for all the logic o
 The easiest way to create filters using spring, works to all your tables, all your columns, and only one dto request model.
 
 ![Badge em Primeira versão](https://img.shields.io/static/v1?label=STATUS&message=PRIMEIRA%20VERSAO&color=GREEN&style=for-the-badge)
-
+![alt text](zuin-filter.drawio (4).png "Title")
 ## Endpoint example 💻
 
 
@@ -40,7 +40,7 @@ The easiest way to create filters using spring, works to all your tables, all yo
 <br>
 
 ![How it works - Json query](/zuin-filter.drawio (4).png "Json query drawning")
-![alt text](zuin-filter.drawio (4).png "Title")
+
 ### Author
 
 ---
