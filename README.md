@@ -12,7 +12,7 @@ The easiest way to create filters using spring, works to all your tables, all yo
    
  - Searching in table "HOSPITAL" with conditions.  
  ```json
- 	{
+ {
 	   "table":"HOSPITAIS",
 	   "expressions":[
 		  {
