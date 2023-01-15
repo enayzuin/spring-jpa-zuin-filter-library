@@ -5,25 +5,11 @@ The easiest way to create filters using spring, works to all your tables, all yo
 
 ![Badge em Primeira versão](https://img.shields.io/static/v1?label=STATUS&message=PRIMEIRA%20VERSAO&color=GREEN&style=for-the-badge "Sofrerá incrementos no futuro")
 
-## Endpoint example 💻
+## Endpoint 💻
 
 
 - [x] Filter example.
-   
- - pom.xml dependency
- ```xml
- 		<dependency>
-			<groupId>com.github.enayzuin.spring.jpa.filter</groupId>
-			<artifactId>zuin-spring-jpa-filter</artifactId>
-			<version>1.0.0</version>
-		</dependency>
- ```
- 
- ![How it works - Json query](zuin-filter.png "Json query drawning")
- 
- - [x] Configure in your project.
-   
- - Searching in table "HOSPITAL" with conditions.  
+- Searching in table "HOSPITAL" with conditions.  
  ```json
  {
 	   "table":"HOSPITAIS",
@@ -49,6 +35,16 @@ The easiest way to create filters using spring, works to all your tables, all yo
 		  }
 	   ]
 }
+ ```
+![How it works - Json query](zuin-filter.png "Json query drawning")
+- [x] Configure in your project.
+- pom.xml dependency.
+ ```xml
+ 		<dependency>
+			<groupId>com.github.enayzuin.spring.jpa.filter</groupId>
+			<artifactId>zuin-spring-jpa-filter</artifactId>
+			<version>1.0.0</version>
+		</dependency>
  ```
 
 ### Author
