@@ -5,7 +5,7 @@ The easiest way to create filters using spring, works to all your tables, all yo
 
 ![Badge em Primeira versão](https://img.shields.io/static/v1?label=STATUS&message=PRIMEIRA%20VERSAO&color=GREEN&style=for-the-badge)
 
-![alt text](/zuin-filter.drawio (4).png "Title")
+![alt text](https://img.shields.io/static/v1?label=STATUS&message=PRIMEIRA%20VERSAO&color=GREEN&style=for-the-badge "Title")
 
 ## Endpoint example 💻
 
