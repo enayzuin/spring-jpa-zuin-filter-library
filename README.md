@@ -50,8 +50,6 @@ The easiest way to create filters using spring, works to all your tables, all yo
 [ /spring-jpa-zuin-filter-library-example](https://github.com/enayzuin/zuin-spring-jpa-filter-usage-example)
 
 
-### Author
-
----
+## Author
 ENAY ZUIN
----
+
