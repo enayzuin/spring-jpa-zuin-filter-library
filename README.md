@@ -37,8 +37,8 @@ The easiest way to create filters using spring, works to all your tables, all yo
 }
  ```
 ![How it works - Json query](zuin-filter.png "Json query drawning")
-- [x] Configure in your project.
-- pom.xml dependency.
+## Configure
+- [x] pom.xml dependency.
  ```xml
  		<dependency>
 			<groupId>com.github.enayzuin.spring.jpa.filter</groupId>
