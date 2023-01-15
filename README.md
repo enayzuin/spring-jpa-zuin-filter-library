@@ -5,8 +5,6 @@ The easiest way to create filters using spring, works to all your tables, all yo
 
 ![Badge em Primeira versão](https://img.shields.io/static/v1?label=STATUS&message=PRIMEIRA%20VERSAO&color=GREEN&style=for-the-badge "Sofrerá incrementos no futuro")
 
-![alt text](zuin-filter.png "Title")
-
 ## Endpoint example 💻
 
 
@@ -41,7 +39,7 @@ The easiest way to create filters using spring, works to all your tables, all yo
    
 <br>
 
-![How it works - Json query](/zuin-filter.drawio (4).png "Json query drawning")
+![How it works - Json query](zuin-filter.png "Json query drawning")
 
 ### Author
 
